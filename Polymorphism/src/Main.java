@@ -2,18 +2,18 @@ package polymorphism;
 
 public class Main {
     public static void main(String[] args){
-        Polymorphism_Student my_student = new Polymorphism_Student("Si Nanan ");
-        Polymorphism_Ariel my_Ariel = new Polymorphism_Ariel ("Ariel");
-        Polymorphism_Zyrel my_Zyrel = new Polymorphism_Zyrel ("Zyrel");
+        Polymorphism_student my_student = new Polymorphism_student("Ering");
+        Polymorphism_Cath my_Cath = new Polymorphism_Cath ("Gwapa kaayo");
+        Polymorphism_jc my_jc = new Polymorphism_jc ("wowex");
         
-        my_student.eat();
-        my_Ariel.sleep();
-        my_Zyrel.coding();
+        my_student.kaon();
+        my_Cath.tulog();
+        my_jc.kapoy();
         
         System.out.println("---------------------------------------");
         
-        my_student.tae();
-        my_Ariel.studentCute();
-        my_Zyrel.studentCute();
+        my_student.hatdog();
+        my_Cath.gwapakaayo();
+        my_jc.cutekaayo();
     }
 }
