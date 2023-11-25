@@ -1,14 +1,14 @@
 package polymorphism;
 
-public class Polymorphism_Ariel extends Polymorphism_Student{ //child class
-    Polymorphism_Ariel(String name){
+public class Polymorphism_Cath extends Polymorphism_student{ //child class
+    Polymorphism_Cath(String name){
         super(name);
     }
-    void sleep(){
-        System.out.println(name + " kay gatulog nga gasiga ang mata");
+    void tulog(){
+        System.out.println(name + " Gikapoy nas iyang laypppp!");
     }
-    public void studentCute(){
-        System.out.println("Nagpa CUTE si " + name);
+    public void gwapakaayo(){
+        System.out.println("Sige rag pangapi si " + name);
     }
     
 }
